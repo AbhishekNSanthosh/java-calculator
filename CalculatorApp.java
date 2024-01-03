@@ -283,13 +283,13 @@ class ScientificCalculator extends Calculator {
             displayResult();
             resetInput();
         } catch (NumberFormatException ex) {
-            showError("Invalid number format!");
+            
             resetCalculator();
         } catch (ArithmeticException ex) {
-            showError("Arithmetic error: " + ex.getMessage());
+        
             resetCalculator();
         } catch (Exception ex) {
-            showError("An error occurred: " + ex.getMessage());
+           
             resetCalculator();
         }
     }
