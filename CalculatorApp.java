@@ -7,7 +7,7 @@ public class CalculatorApp extends JFrame {
     private JPanel menuPanel;
 
     public CalculatorApp() {
-        setTitle("Java Calculator");
+        setTitle("Calculator");
         setSize(400, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
